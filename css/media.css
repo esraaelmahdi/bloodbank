@@ -1,0 +1,146 @@
+
+/*========== max-width: 991px ===========*/
+@media(max-width: 991px) {
+
+	.aboutUs{background:none}
+    .donation-request .parent{padding: 15px 10px 35px;font-size: 11px;border-radius: 0;text-align: center}
+	.donation-request .parent .type{margin: auto}
+	.donation-request .parent .details , .donation-request .parent .link-left{text-align: center}
+	.donation-request .parent .details{margin: 10px auto 15px}
+	.donation-request .parent .link-left{margin-top: 25px auto}
+	.donation-requests .parent{padding: 15px 10px 35px;font-size: 11px;border-radius: 0;text-align: center}
+	.donation-requests .parent .type{margin: auto}
+	.donation-requests .parent .details , .donation-requests .parent .link-left{text-align: center}
+	.donation-requests .parent .details{margin: 10px auto 15px}
+	.donation-requests .parent .link-left{margin-top: 25px auto}
+}
+/*============= min-width : 992px ================*/
+@media(min-width : 992px){
+
+	.header-bx-slider ul.bxslider li .container .row > div:first-child, 
+	.header-bx-slider ul.bxslider li .container .row > div .img-parent{height: 100%;display: flex;align-items: center}
+	.donation-request .parent .link-left{display: flex;justify-content: flex-end}
+    .donation-request .parent .link-left a{margin-left: 15px}
+	.donation-requests .parent .link-left{display: flex;justify-content: flex-end}
+    .donation-requests .parent .link-left a{margin-left: 15px}
+}
+/*============ min-width: 1199px ===============*/
+@media(min-width: 1199px) {
+
+    .about-data .about .about-text {margin: 30px auto 0;width: 85%;}
+
+  }
+
+/*=========== (min-width: 991px) and (max-width: 1199px) ========================*/
+@media(min-width: 991px) and (max-width: 1199px){
+
+    .navbar-default .my-collapse {padding-bottom: 80px}
+    .navbar-default .n-left{position: absolute;right: 29%;top: 80px}
+
+	}
+
+/*============ (min-width: 768px) and (max-width: 1199px) ======================*/
+
+	@media(min-width: 768px) and (max-width: 1199px){
+
+		.navbar-default .nav-r{float: left !important}
+	}
+
+/*============ (min-width: 768px) and (max-width: 991px) =======================*/
+
+@media(min-width: 768px) and (max-width: 991px){
+
+	.navbar-default #bs-example-navbar-collapse-1{padding-bottom: 80px}
+    .navbar-default .navLeft{position: absolute;right: 40%;top: 70px}
+    .navbar-default .n-left{position: absolute;right: 26%;top: 80px}
+	
+}
+
+/*================ min-width: 768px =================*/
+@media(min-width: 768px){
+
+    .carousel-inner .row{display: flex;align-items: center}
+	.our-apps .data .apps-links{display: flex;justify-content: center}
+    .top-header .top-info{justify-content: flex-end}
+    .top-header .social {justify-content: center}
+    .about-data .about .logo > a > img{width: 20%}
+    .articles .article-details .myimg-preview > a > img{width: 50%;border:1px solid #f1f1f1;}
+	.login-data .login-box .logo > img{width: 20%}
+    .login-data  .login-form .parent-1{display: flex;justify-content: flex-end;align-items: center;}
+
+}
+
+/*================ max-width: 767px ====================*/
+
+@media(max-width: 767px){
+
+	.login-data  .login-form .parent-1 , 
+	.login-data  .login-form .parent-2{margin-top: 20px;display: flex;justify-content: center;align-items: center}
+	.parent-menue > li:focus  .chlid{opacity: 1;margin-top: 0}
+    .carousel-inner .content h2{font-size: 18px;line-height: 26px}
+	.navbar-default .navRight > li > a:hover{padding-right: 20px}
+    .navbar-default .navRight > li > a:after{display: none}
+    .other-details{background-size: 100% 100%}
+    .our-apps .data .apps-links a{width: 100%;display: block;text-align: center}
+    .our-apps .data .apps-links a img{max-width: 100%}
+    .about-data .about {padding: 30px 15px}
+    .login-data .login-box{padding: 30px 15px}
+    .articles .article-details{padding: 30px 15px}
+    .new-acc .new-acc-form {padding: 20px 15px}
+    .about-data .about .logo > a > img{width: 55%}
+    .articles .article-details .myimg-preview > a > img{width: 85%;border:1px solid #f1f1f1;}
+    .login-data .login-box .logo > img{width: 55%}
+	footer .bottom-footer{padding: 10px 0}
+    footer .bottom-footer .social{justify-content: center}
+    footer .bottom-footer .copyrights{display: flex;align-items: center;justify-content: center;margin-top: 1px;line-height: 25px}   
+}
+/*=========== max-width: 675px ===============*/
+@media(max-width: 675px){
+	.inside-donation-req .talab .talab-bianat .my-info .parent span{width: 100% !important;display: block}
+}
+
+/*============= (max-width: 620px) =================*/
+@media(max-width: 620px){
+
+	.top-header{padding: 15px 0}
+    .top-header .one{width: 100%;display: flex;justify-content: center;align-items: center;padding: 3px 0}
+    .login-data .login-box .login-form .Submit, 
+    .login-data .login-box .login-form .new-acc{margin:30px auto 10px;display: block;text-align: center;padding: 10px 30px} 
+}
+
+
+/*============== min-width: 621px ================*/
+@media(min-width: 621px){
+
+   .top-header> div  > div {display: flex;align-items: center}
+}
+
+/*============= max-width: 450px ==============*/
+
+@media(max-width: 450px){
+
+	.header-bx-slider .content h2{font-size: 19px;line-height: 26px}
+    .contactus .call .call-data .data .social ul li{padding: 1px}
+    .contactus .call .call-data .data .social ul li .call-link{width: 25px;height: 25px;line-height: 25px}
+    .contactus .call .call-logo > a > img {width: 60%}
+    .contact-Us-home .icon{width: 185px;justify-content: flex-start;padding-right: 10px}	
+    .new-acc-my-info .update-form button{padding: 6px 30px}
+}
+
+/*============== max-width: 315px ===============*/
+@media(max-width: 315px){
+    .login-data  .old-parent button , .login-data  .old-parent a{width:90%  !important;font-size: 11px;}
+    .inside-donation-req .talab .know-more a{width: 100%;height: 47px;display: flex;align-items: center;justify-content: center;
+}
+
+	.login-data .login-box .login-form .checkbox .warning{top: 40px;right: 0}
+    .new-acc .new-acc-form button , .my-info .update-form button{padding: 8px 70px}
+    .parent-menue > li:hover  .chlid{left: -30px}
+}
+
+/*=============== (min-width: 200px) and (max-width: 314px) =============*/
+@media (min-width: 200px) and (max-width: 314px){
+
+	.navbar-brand{width: 50% !important}
+    .navbar>.container .navbar-brand>img{width: 100%;margin-top: -6px}
+}
